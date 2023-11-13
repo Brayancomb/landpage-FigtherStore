@@ -9,10 +9,26 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary-red: #720000;
+  --primary-red: #720000; 
+  --secondary-red: #b80000;
   --secondary-black: #030202;
+  --white-button: #b9d7ea;
   --text-color-light: #ffffff;
+  --text-color-red: #f10505;
 }
 *{
   margin: 0;
+}
+
+button{
+  border: 2px solid var(--primary-red);
+  border-image: linear-gradient(to right, var(--secondary-red), var(--white-button)) 1;
+  border-radius: 50%;
+  padding: 10px 30px;
+  background: transparent;
+  color: var(--text-color-light);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  width: 20rem;
+  margin: 50px;
 }

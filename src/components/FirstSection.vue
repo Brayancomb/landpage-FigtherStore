@@ -18,10 +18,12 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../src/assets/images/Camada\ 1.png);
+  /* background-image: url(../src/assets/images/Camada\ 1.png);
   background-repeat: no-repeat, repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 46%, rgba(114,0,0,1) 69%);
   height: 100%;
 }
 .sectionWelcome{
@@ -31,7 +33,7 @@ header{
 }
 .logoIcon{
   width: 3rem;
-  margin: 0 0 100px 0;
+  margin: 20px 0 100px 0;
 }
 .logoFull{
   width: 20rem;
@@ -48,16 +50,5 @@ header{
   text-align: center;
   font-size: 1.5rem;
   margin: 30px 0 30px 0;
-}
-button{
-  border: 1px solid var(--primary-red);
-  border-radius: 10px;
-  padding: 10px 30px;
-  background: transparent;
-  color: var(--text-color-light);
-  font-size: 1.5rem;
-  font-weight: bolder;
-  width: 20rem;
-  margin: 50px;
 }
 </style>
