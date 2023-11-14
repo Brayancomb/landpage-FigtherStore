@@ -32,3 +32,6 @@ button{
   width: 20rem;
   margin: 50px;
 }
+button:hover{
+  cursor: pointer;
+}
