@@ -12,6 +12,11 @@
   </header>
 </template>
 
+
+<script setup>
+
+</script>
+
 <style scoped>
 header{
   width: 100%;

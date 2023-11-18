@@ -1,6 +1,7 @@
 <script>
-import FirstSection from './components/FirstSection.vue';
-import SecondSection from './components/SecondSection.vue';
+import ScrollPanel from 'primevue/scrollpanel';
+import FirstSection from './components/ApresentacaoInicial.vue';
+import SecondSection from './components/LuvasDeBox.vue';
 import ThirdSection from './components/ThirdSection.vue';
 import FourthSection from './components/FourthSection.vue';
 import FivetiSection from './components/FivetiSection.vue';
@@ -11,19 +12,26 @@ export default{
     SecondSection,
     ThirdSection,
     FourthSection,
-    FivetiSection
+    FivetiSection,
+    ScrollPanel
   }
 }
 </script>
 
 <template>
-  <FirstSection></FirstSection>
-  <SecondSection></SecondSection>
-  <ThirdSection></ThirdSection>
-  <FourthSection></FourthSection>
-  <FivetiSection></FivetiSection>
+
+  <div class="container-principal">
+    <FirstSection></FirstSection>
+    <SecondSection></SecondSection>
+    <ThirdSection></ThirdSection>
+    <FourthSection></FourthSection>
+    <FivetiSection></FivetiSection>
+  </div>
+
 </template>
 
-<style scoped>
-
+<style>
+.container-principal {
+  overflow-x: hidden;
+}
 </style>

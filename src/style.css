@@ -9,7 +9,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary-red: #720000; 
+  --primary-red: #720000;
   --secondary-red: #b80000;
   --secondary-black: #030202;
   --white-button: #b9d7ea;
@@ -34,4 +34,13 @@ button{
 }
 button:hover{
   cursor: pointer;
+}
+.naoSelecionavel {
+  -webkit-touch-callout: none;  /* iPhone OS, Safari */
+  -webkit-user-select: none;    /* Chrome, Safari 3 */
+  -khtml-user-select: none;     /* Safari 2 */
+  -moz-user-select: none;       /* Firefox */
+  -ms-user-select: none;        /* IE10+ */
+  user-select: none;            /* Possível implementação no futuro */
+  /* cursor: default; */
 }
